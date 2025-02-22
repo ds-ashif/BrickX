@@ -1,0 +1,85 @@
+/* Overall page styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* About Us content */
+  .about-us-content {
+    border: 2px solid #007bff;  /* Light blue border for distinction */
+    background-color: #f7f7f7;  /* Soft background color */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-content h4 {
+    font-size: 1.25rem;
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .about-us-content p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .about-us-content .row {
+    margin-top: 30px;
+  }
+  
+  /* Contact Us form styling */
+  .contact-form {
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .contact-form .form-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:black;
+  }
+  
+  .contact-form .form-control {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .contact-form button {
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .about-us-content, .contact-form {
+      padding: 25px;
+    }
+  
+    .contact-form button {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,82 @@
+/* Container styling */
+.login-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Card styling */
+  .form-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .form-title {
+    font-size: 1.8rem;
+    color: #6e8efb;
+    margin-bottom: 20px;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  /* Button styling */
+  .form-button {
+    background: #6e8efb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background: #5a7adb;
+  }
+  
+  /* Footer text */
+  .form-footer {
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .form-footer a {
+    color: #6e8efb;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .form-footer a:hover {
+    text-decoration: underline;
+  }
+  
